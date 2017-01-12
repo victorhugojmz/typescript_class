@@ -14,6 +14,4 @@ let cliente: Object;
 /*    Arreglo de variables tipo objeto   */ 
 let clientes: Object[];
 let Objetos: Array <Object>;
-
 /* usuario = 10; Devuelve un error : "Type 10 is not assignable to type string" */
-
