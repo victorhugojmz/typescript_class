@@ -1,17 +1,20 @@
 /* Tipos de datos */
 /*     Strings  o cadenas de caracteres    */
-let usuario: string;
+var usuario;
 /*          Arreglos de strings     */
-let usuarios: string[];
-let imagenes: Array <string>; 
+var usuarios;
+var imagenes;
 /*         Number para numeros      */
-let puntaje: number;
+var puntaje;
 /*         Arreglos de numeros      */
-let puntajes: number[];
-let precios: Array <number>;
+var puntajes;
+var precios;
 /*       Vartiables tipo Objeto    */
-let cliente: Object; 
-/*    Arreglo de variables tipo objeto   */ 
-let clientes: Object[];
-let Objetos: Array <Object>;
+var cliente;
+/*    Arreglo de variables tipo objeto   */
+var clientes;
+var Objetos;
 /* usuario = 10; Devuelve un error : "Type 10 is not assignable to type string" */
+var interruptor;
+interruptor = true;
+interruptor = false;
