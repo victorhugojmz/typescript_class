@@ -15,6 +15,8 @@ var cliente;
 var clientes;
 var Objetos;
 /* usuario = 10; Devuelve un error : "Type 10 is not assignable to type string" */
-var interruptor;
-interruptor = true;
-interruptor = false;
+var mensaje;
+var delay_milisegundos;
+delay_milisegundos = 3000;
+mensaje = "mensaje es una variable de tipo string";
+setTimeout(function () { confirm(mensaje); }, delay_milisegundos);

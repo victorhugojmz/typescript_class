@@ -15,7 +15,8 @@ let cliente: Object;
 let clientes: Object[];
 let Objetos: Array <Object>;
 /* usuario = 10; Devuelve un error : "Type 10 is not assignable to type string" */
-
-let interruptor: boolean;
-interruptor = true;
-interruptor = false;
+ let mensaje: string;
+ let delay_milisegundos: number;
+ delay_milisegundos = 3000;
+ mensaje = "mensaje es una variable de tipo string";
+ setTimeout(function(){ confirm(mensaje); },delay_milisegundos);
